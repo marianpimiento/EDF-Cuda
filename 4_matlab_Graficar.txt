@@ -1,0 +1,12 @@
+Reed=textread('R');
+Green=textread('G');
+Blue=textread('B');
+tam=size(Reed);
+
+I2=zeros(tam(1),tam(2),3);
+I2(:,:,1)=Reed;
+I2(:,:,2)=Green;
+I2(:,:,3)=Blue;
+I4=uint8(I2);
+imshow(I4);
+
