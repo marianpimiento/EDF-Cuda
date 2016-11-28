@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo -e "\n"
+echo -e "\t\tUNIVERSIDAD INDUSTRIAL DE SANTANDER"
+echo -e "\t\t\tPROYECTO DE GRADO:"
+echo -e "\t\t\t\b\b\bPROCESAMIENTO Y VISUALIZACION"
+echo -e " \tEN ARQUITECTURAS EMBARCADAS DE COMPUTO"
+echo -e "\t\t\t\b\b\b\bDE ALTO DESEMPEÑO"
+echo -e "\n"
+echo -e "\t\tMARIA ANDREA PIMIENTO"
+echo -e "\n"
+
+./1_varianza_p $1 $2
+./2_topografia_p $1 $2
+./3_matricesRGB_p $1 $2
